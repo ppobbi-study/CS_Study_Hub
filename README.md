@@ -5,6 +5,8 @@
 CS 스터디 시작 (2023.10.17 ~ )
    
 ## ✅ Contents
+1. 프로그래밍 기본  
+
    
 ## ✅ Expected question
 
