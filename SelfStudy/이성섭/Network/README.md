@@ -96,7 +96,7 @@ OSI 7계층과 유사하며, 세션, 프레젠테이션, 어플리케이션 계�
 
 ### 2. flow 
 ![이미지](layer2.png)
-
+출처: https://www.youtube.com/watch?v=0y6FtKsg6J4&t=3s
 
 
 ---
