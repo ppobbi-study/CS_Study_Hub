@@ -31,7 +31,7 @@
 - 중복되는 부분의 기계어 코드를 캐싱 후 재사용
 
 ### 더 알아보기
-[프로그램 실행 방식](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/Java/ProgrammingBase/program_structure.md)
+[프로그램 실행 방식](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/ProgrammingBase/program_structure.md)
 
 <br>
 
