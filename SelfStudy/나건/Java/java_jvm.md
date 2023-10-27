@@ -41,7 +41,7 @@
 <br>
 
 ## JDK vs JRE vs JVM
-![JDK structure]https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/JDK_structure.png()
+![JDK structure](https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/JDK_structure.png)
 
 ### JDK(Java Development Kit)
 > 자바로 개발하는데 필요한 SDK
