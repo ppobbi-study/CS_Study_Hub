@@ -11,8 +11,10 @@
     - C의 경우, 플랫폼에 맞는 각각의 컴파일러가 필요
     - Java의 경우, 하나의 자바 컴파일러가 변환한 바이트 코드를 실행할 각각의 JVM이 필요
 
-![compile_c]()
-![compile_java]()
+<p align="center" width="100%">
+    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/compile_c.png" width="49%">
+    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/compile_java.png" width="49%">
+</p>
 
 ## 단점은?
 - 두 번의 변환과정으로 인해 속도 문제가 발생
@@ -29,17 +31,17 @@
 - 중복되는 부분의 기계어 코드를 캐싱 후 재사용
 
 ### 더 알아보기
-[프로그램 실행 방식]()
+[프로그램 실행 방식](https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/ProgrammingBase/program_structure.md)
 
 <br>
 
 ## JVM의 구조
-![JVM structure]()
+![JVM structure](https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/JVM_structure.png)
 
 <br>
 
 ## JDK vs JRE vs JVM
-![JDK structure]()
+![JDK structure]https://github.com/ppobbi-study/CS_Study_Hub/blob/geon/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/JDK_structure.png()
 
 ### JDK(Java Development Kit)
 > 자바로 개발하는데 필요한 SDK
