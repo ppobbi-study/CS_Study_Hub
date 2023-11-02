@@ -10,6 +10,8 @@
 
 - [x] [메모리 계층](./Memory.md)
       <br> <br>
-- [] [공유 자원과 교착상태](./Shared_resource_and_deadlock.md)
+- [x] [공유 자원과 교착상태](./Shared_resource_and_deadlock.md)
+      <br> <br>
 - [] [CPU 스케줄링]()
+  <br> <br>
 - [] [프로젝트 서버 구조]()
