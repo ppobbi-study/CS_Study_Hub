@@ -2,7 +2,7 @@
 
 ## 목차
 
-- [ ] [SPA와 MPA]()
+- [x] [SPA와 MPA]()
 - [ ] [Vue vs React]()
 - [ ] [Next vs React]()
 - [ ] [React Rendering]()
