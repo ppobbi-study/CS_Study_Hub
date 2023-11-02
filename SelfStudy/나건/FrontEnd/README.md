@@ -4,7 +4,7 @@
 
 - [x] [SPA와 MPA]()
 - [ ] [Vue vs React]()
-- [ ] [Next vs React]()
+- [ ] [NextJs]()
 - [ ] [React Rendering]()
 - [ ] [동기와 비동기]()
 - [ ] [JS 싱글 스레드]()
