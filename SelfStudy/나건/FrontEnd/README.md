@@ -4,8 +4,8 @@
 
 - [x] [SPA와 MPA]()
 - [ ] [Vue vs React]()
-- [ ] [NextJs]()
+- [x] [NextJs]()
 - [ ] [React Rendering]()
-- [ ] [동기와 비동기]()
+- [x] [동기와 비동기]()
 - [ ] [JS 싱글 스레드]()
 - [ ] [프론트에서의 MVC 패턴]()
