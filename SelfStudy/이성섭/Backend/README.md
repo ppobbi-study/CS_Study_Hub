@@ -153,3 +153,6 @@ C++은 사용자가 직접 관리해야 함
 1. 메모리영역에서 heap과 stack에 대해서 설명하시오.
 
 2. C/C++, java, python이 메모리를 어떻게 관리하는 지 설명하시오
+
+## Reference
+[순수객체지향언어?](https://velog.io/@bernard/%EC%9E%90%EB%B0%94%EB%8A%94-%EC%88%9C%EC%88%98%ED%95%9C-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%96%B8%EC%96%B4%EC%9D%BC%EA%B9%8C-mpz8izem)
