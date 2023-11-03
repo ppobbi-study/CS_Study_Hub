@@ -35,19 +35,19 @@
 
 ### promise 기본 문법 형식
 
-  ![promise 기본 문법]()
+  ![promise 기본 문법](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/promise-basic.png)
 
 ### promise 상태
 
-  ![promise 상태]()
+  ![promise 상태](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/promise-state.png)
 
 ## aysnc / await
 > 비동기 코드를 동기적으로 수행하는 프로미스 코드를 좀 더 깔끔하게 사용하기 위해 사용
 
 ### 프로미스 체이닝 방지
 <p align="center" width="100%">
-    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/compile_c.png" width="49%">
-    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/Java/img/compile_java.png" width="49%">
+    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/promise-chaining.png" width="49%">
+    <img src="https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/async-await-wow.png" width="49%">
 </p>
 
 - async : "이건 비동기야"
