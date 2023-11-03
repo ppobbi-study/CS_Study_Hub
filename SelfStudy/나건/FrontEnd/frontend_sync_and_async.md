@@ -60,6 +60,18 @@
 - 콜백 깊이가 깊지 않을 때는 굳이 사용할 필요 없음
 - async/await으로 해결할 수 없는 동작을 Promise로 해결할 때도 있음
 
+## JS는 싱글 스레드인데 어떻게 비동기 처리를 하지?
+
+### 싱글 스레드
+> 쉽게 말해 하나의 콜 스택에 처리해야할 함수 하나씩 넣어놓고 꺼내서 하나씩 처리한다는 것
+
+![webapi-example](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/webapi.png)
+
+- setTimeout 등과 같은 함수들은 WebAPI이다<br />-> 브라우저가 대신 처리하다가 완료하면 task queue에 콜백 함수를 넣는다
+<br>-> JS는 콜 스택이 빌 때까지 기다리다가 전부 비워지면 task queue를 살펴본다.<br>-> task queue에서 하나씩 빼서 콜 스택에 올려 처리한다.
+
+- 그렇기에 setTimeout의 delay는 콜백함수의 딜레이 최소시간을 보장하지 정확한 딜레이 시간을 보장하지는 않는다.
+
 # 예상 질문
 - 동기와 비동기를 비교해서 설명해 주세요.
 - Block과 Non-Block 방식에 대해 비교해서 설명해주세요.
