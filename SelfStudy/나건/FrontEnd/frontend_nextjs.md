@@ -8,7 +8,7 @@
 - 파일 시스템 기반의 라우팅 기능 제공
     - /help 페이지를 만들고 싶으면 help.js파일을 생성하면 끝!
 
-![feature]()
+![feature](https://github.com/ppobbi-study/CS_Study_Hub/blob/main/SelfStudy/%EB%82%98%EA%B1%B4/FrontEnd/img/nextjs-feature.png)
 
 ## 장점
 - SEO 친화적
