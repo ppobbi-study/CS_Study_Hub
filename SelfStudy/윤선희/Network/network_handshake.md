@@ -3,8 +3,8 @@
 ## Transport Layer
 Transport Layer에는 양 끝단(End to end)의 사용자들이 신뢰성있는 데이터를 주고 받을 수 있도록 해 주어, 상위 계층들이 데이터 전달의 유효성이나 효율성을 생각하지 않도록 해준다.  
   
-전송 프로토콜로 잘 알려진 것이 TCP와 UDP이다.  
-[![](./img/network_img_4.png?width=300px)]()  
+전송 프로토콜로 잘 알려진 것이 TCP와 UDP이다. 
+[![](./img/network_img_4.PNG?width=300px)]()  
 
 #### :pushpin: Transport Layer VS Network Layer
 Transport Layer : Application 프로세스들 간의 논리적인 통신을 제공  
@@ -40,7 +40,7 @@ UDP는 연결을 설정하고 해제하는 과정이 존재하지 않는다. 서
 - TCP보다 속도가 빠르다  
 <br>  
   
-[![](./img/network_img_5.png?width=300px)]()  
+[![](./img/network_img_5.PNG?width=300px)]()
 <br>
 
 ### :pushpin: 포트(PORT) 상태 정보
@@ -71,7 +71,7 @@ UDP는 연결을 설정하고 해제하는 과정이 존재하지 않는다. 서
 
 
 ### 3-way HandShake의 과정
-[![](./img/network_img_6.png?width=300px)]()  
+[![](./img/network_img_6.PNG?width=300px)]()
   
 1. A클라이언트는 B서버에 접속을 요청하는 SYN 패킷을 보낸다. 이때 A클라이언트는 SYN 을 보내고 SYN/ACK 응답을 기다리는SYN_SENT 상태가 되는 것이다.  
 2. B서버는 SYN요청을 받고 A클라이언트에게 요청을 수락한다는 ACK 와 SYN flag 가 설정된 패킷을 발송하고 A가 다시 ACK으로 응답하기를 기다린다. 이때 B서버는 SYN_RECEIVED 상태가 된다.  
@@ -93,7 +93,7 @@ UDP는 연결을 설정하고 해제하는 과정이 존재하지 않는다. 서
     > 한 사용자가 두 데이터 전송 방향을 모두 닫는 경우
 
 ### 4-way HandShake의 과정
-[![](./img/network_img_7.png?width=300px)]()  
+[![](./img/network_img_7.PNG?width=300px)]()  
 1. 클라이언트가 연결을 종료하겠다는 FIN플래그를 전송한다.
 2. 서버는 일단 확인메시지를 보내고 자신의 통신이 끝날때까지 기다리는데 이 상태가 TIME_WAIT상태다.
 3. 서버가 통신이 끝났으면 연결이 종료되었다고 클라이언트에게 FIN플래그를 전송한다.
