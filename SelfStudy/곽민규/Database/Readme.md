@@ -6,7 +6,7 @@
   <br> <br>
 - [ ] [트랜젝션 전파](./Transaction_Propagation.md)
 <br> <br>
-- [ ] [DB Locking](./DB_Locking.md)
+- [x] [DB Locking](./DB_Locking.md)
 <br> <br>
 - [ ] [정규화](./Normalization.md)
 <br> <br>
