@@ -5,11 +5,24 @@
 CS 스터디 시작 (2023.10.17 ~ )
    
 ## ✅ Contents
-* [프로그래밍 기본]()  
+* [프로그래밍 기본](./ProgrammingBase/README.md)  
+* [운영체제]()  
+* [네트워크]()    
+* [데이터베이스]()  
+* [백엔드]()
+* [프론트엔드]()   
+
 
    
 ## ✅ Expected question
 * [프로그래밍 기본]()  
+* [운영체제]()  
+* [네트워크]()    
+* [데이터베이스]()  
+* [백엔드]()
+* [프론트엔드]()  
+  
+    
 
 ## ✅ 소스코드 파일 이름 규칙
 - 자유롭게 작성 
@@ -20,6 +33,6 @@ CS 스터디 시작 (2023.10.17 ~ )
 - 스터디 날 13:00 까지 PR 
    
 ## 👨🏻‍💻👩🏻‍💻 멤버 소개
-|[![](https://github.com/SunheeYoon96.png?width=200px)](https://github.com/SunheeYoon96)|[![](https://github.com/kimmainsain.png?width=200px)](https://github.com/kimmainsain) |[![](https://github.com/Seobway23.png?width=200px)](https://github.com/Seobway23)|[![](https://github.com/rabbit0216.png?width=200px)](https://github.com/rabbit0216)|[![](https://github.com/freakFlow.png?width=200px)](https://github.com/freakFlow) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|[![](https://github.com/SunheeYoon96.png?width=200px)](https://github.com/SunheeYoon96)|[![](https://github.com/kimmainsain.png?width=200px)](https://github.com/kimmainsain) | [![](https://github.com/Seobway23.png?width=200px)](https://github.com/Seobway23)|[![](https://github.com/rabbit0216.png?width=200px)](https://github.com/rabbit0216)|[![](https://github.com/freakFlow.png?width=200px)](https://github.com/freakFlow) |
+|:---:|:---:|:---:|:---:|:---:|
 | 선희 | 민섭 | 성섭 | 가경 | 건 |
