@@ -6,7 +6,7 @@
       <br> <br>
 - [x] [해시 충돌](./HashCollision.md)
       <br> <br>
-- [] [set 과 map]
+- [] [set 과 map](./SetandMap.md)
   <br> <br>
 - [] [ 정렬 알고리즘]
   <br> <br>
