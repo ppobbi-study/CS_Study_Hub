@@ -17,6 +17,13 @@
 <br>
 
 ## 사용 이유
+- 스프링과 무관하게 전역적으로 처리해야 하는 작업 처리
+
+## 사용 사례
+- 보안 및 인증/인가
+- 모든 요청에 대한 로깅 또는 검사
+- 이미지/데이터 압축 및 문자열 인코딩
+- Spring과 분리되어야 하는 기능
 
 ## 메소드
 
@@ -33,7 +40,7 @@ public interface Filter {
 
     public void doFilter(ServletRequest request, ServletResponse response,
             FilterChain chain) throws IOException, ServletException;
-    // 김민섭 왔다감
+
     public default void destroy() {}
 }
 ```
@@ -69,7 +76,11 @@ public interface Filter {
 ## 사용 이유
 
 - 특정 컨트롤러의 핸들러가 실행이 되기 전/후 추가적인 작업을 원할 때 사용
-- 로그인 체크, 권한 체크 등
+- 컨트롤러로 넘겨주기 위한 정보 가공에 용이
+
+## 사용 사례
+- 세부적인 보안 및 인증/인가
+- API 호출에 대한 로깅 또는 검사
 
 ## 동작 순서
 
