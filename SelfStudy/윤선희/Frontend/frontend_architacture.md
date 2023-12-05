@@ -99,13 +99,17 @@ FLUX 패턴을 활용한 구현체가 바로 Redux이다. <br>
 
 즉, 기존의 컴포넌트 단위의 MVC 개념에서 비즈니스 로직과 View를 완전히 분리된 개념을 **상태관리(State Management)** 라고 한다.
 
+<br>
+
 #### ✨ MVC에서 FLUX으로 오면서 달라진 점
 - 공통적으로 사용되는 비지니스 로직과 View를 완전히 분리되어 **상태관리**라는 방식으로 관리한다.
 - 각각의 독립된 컴포넌트가 아니라 `하나의 거대한 View 영역`으로 간주한다.
 - 둘 사이의 관계는 `Action과 Reduce라는 인터페이스로 분리`하며 Controller는 이제 양방향이 아니라 `단반향`으로 Cycle을 이루도록 설계한다.
 
+<br>
+
 ### FLUX 패턴의 한계
-> 🛑 긴 러닝커브
+> 🛑 긴 러닝커브  <br> 
 > 🛑 장황한 문법
 
 <br>
@@ -114,6 +118,59 @@ FLUX 패턴을 활용한 구현체가 바로 Redux이다. <br>
 
 <br><br>
 
+### 🎨 MVI 패턴  
+<br>
+
+[![](./images/frontend_img06.png?width=400px)]() <br>
+
+웹프론트에서는 cycle.js 라는 라이브러리에서 먼저 나왔던 개념이다.  <br>
+기존 FLUX 패턴을 Dispatch와 Action과 Update의 인터페이스를 전부 **Observable를 이용한 스트림(Stream)** 의 하나의 방식으로 만들어 비동기 문제를 해결하고 장황한 문법을 **하나의 인터페이스**로 만든 점이 인상적인 아키텍쳐. <br>
+
+✨ **MVI 아키텍처는 현재 웹보다는 android 와 ios 같은 모바일에서 주로 활용되고 있는 아키텍처라고 한다.** ✨ <br>
+
+> Model + View + Intent
+
+<br>
+
+> **Model** : Model 은 상태를 나타낼 수 있다. MVI에서 Model은 데이터의 플로우가 `단방향`으로 이루어지기 위해 무조건 `불변성`을 보장해야 한다. <br>
+> **View**: View는 Activity나 Fragment를 나타내며, 상태를 전달 받아 화면에 랜더링하는 역할이다. <br>
+> **Intent**: 사용자가 작업을 수행하려는 `의도(intent)`를 나타냅니다. 모든 사용자 작업에 대해 View로부터 의도(intent)를 수신하고 Presenter에서 이를 관찰하고 Model에서 새로운 상태로 변환합니다.
+
+<br><br>
+
+## 현대 웹프론트엔드 아키텍처의 방향성
+
+### Context와 hook, props 상속
+FLUX 패턴과 같은 복잡한 문법을 가지고 만드는 Redux보다는 **Hook**과 같은 Context API를 활용하고자하는 움직임.  
+View와 Model을 분리하고 Props Drilling Problem을 막는 것에 집중하자는 의도.
+
+<br>
+
+### 🎨 Atomic 패턴 
+<br>
+
+[![](./images/frontend_img07.png?width=400px)]() <br>
+
+> Recoil, Svelte Store, Vue Composition, jotai 등
+
+<br>
+
+- 상태관리에는 동의하나 복잡한 구조를 가져야하나에 대해 회의적인 시각으로 나온 패턴
+- 간단한 문법으로 컴포넌트 외부에서 공통의 데이터를 set, get할 수 있게 하면서 동시에 동기화할 수 있는 것
+- 중간의 과정은 자율에 맡기고 간단하게 Model에 접근하는 법만 제공하자.
+- 동기화, 동시성 처리가 중요
+
+<br><br>
+
+### 🎨 React-Query
+
+최근에 우아한 형제들과 카카오 계열사 일부에서 사용한다는 React-Query이다.
+
+> - MVC의 개념 확대로 상태관리에 편향되어 있던 시각에서 벗어나 고전적인 ajax의 데이터를 Model로 간주한다.
+> - 서버와의 fetch영역을 Model로 간주
+> - View가 React
+> - Controller는 query와 mutation이라는 2가지의 인터페이스를 통해서 서버 데이터의 상태를 관리하고 캐싱, 동기화, refetch등을 관리해주는 역할
+> - 가장 큰 사용이유 : 클라이언트 데이터의 상태관리와 서버 데이터의 상태관리를 나누어 사용해, 유지보수의 편의성을 높인다.
 
 
 <br><br>
@@ -121,12 +178,29 @@ FLUX 패턴을 활용한 구현체가 바로 Redux이다. <br>
 # :question: 예상 질문
 
 <details>
-  <summary><b> </b></summary>
+  <summary><b>MVVM 패턴에 대해서 설명해주세요.</b></summary>
   <div markdown="1">
   
   </div>
 </details>
 <br>
+
+<details>
+  <summary><b>Props Drilling Problem 에 대해서 설명해주시고 어떤 해결방법이 있는지 아시는대로 얘기해주세요.</b></summary>
+  <div markdown="1">
+  
+  </div>
+</details>
+<br>
+
+<details>
+  <summary><b>상태관리를 해보신 경험이 있다면 혹시 사용해본 라이브러리에 대해서 설명해주실 수 있을까요?</b></summary>
+  <div markdown="1">
+  
+  </div>
+</details>
+<br>
+
     
 # :newspaper: Reference
 [프론트엔드 트렌드](https://yozm.wishket.com/magazine/detail/1663/)
