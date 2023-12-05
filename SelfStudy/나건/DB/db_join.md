@@ -1,4 +1,4 @@
-b# Join
+# Join
 
 ## Join이란?
 
