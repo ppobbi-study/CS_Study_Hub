@@ -55,7 +55,7 @@ public interface Filter {
 ### doFilter()
 
 - <b>url 패턴</b>에 맞는 모든 HTTP 요청이 <b>디스패처 서블릿에 전달되기 전</b>에 웹 컨테이너에 의해 실행되는 메소드
-- 파라미터인 `FilterChain`의 `doFilter()`를 통해 다음 대상으로 요청 전달
+- 파라미터인 [`FilterChain`](#filterchain)의 `doFilter()`를 통해 다음 대상으로 요청 전달
 - chain.doFilter() 전/후에 필요한 처리 과정을 넣어 원하는 처리 진행
 
 ### destroy()
@@ -63,6 +63,16 @@ public interface Filter {
 - 필터 객체를 서비스에서 제거하고, 사용하는 자원 반환을 위한 메소드
 - 웹 컨테이너에 의해 1회 호출
 - 필터 객체를 종료하면 이후에는 doFilter()에 의해 처리되지 않음
+
+<br>
+
+
+## FilterChain
+![filter_chain](./images/filter_chain.png)
+- 필터는 위와 같이 여러개로 Chaining 설정이 가능
+- URL 패턴을 지정하여 요청에 따라 필터 지정 가능
+
+> `OncePerRequestFilter` : Filter Chain이 여러 번 실행되더라도 요청 당 한 번만 필터를 수행하도록 처리해 주는 역할
 
 <br>
 
@@ -162,9 +172,25 @@ public class MyFilter implements Filter {
 
 <br>
 
-## 사용 사례
+# :question: 예상 질문
+
+<details>
+<summary>
+Spring 에서 filter와 inteceptor의 차이에 대해 설명해주세요.</summary>
+<div markdown="1">
+
+우선 두개의 공통점으로는 공통되는 코드를 filter나 interceptor를 이용하여 제거할 수 있다는 점입니다. <br>
+반면에 가장 큰 차이점으로는 filter는 스프링 외부에서 처리되는 것이고, interceptor는 스프링이 처리하는 것입니다.
+
+<br>
+누군가.. 추가 부탁드려요.. 
+</div>
+</details>
+
+<br>
 
 # :newspaper: Reference
 
 - [필터 vs 인터셉터](https://mangkyu.tistory.com/173)
 - [필터와 인터셉터의 차이](https://dev-coco.tistory.com/173)
+- [filter vs interceptor](https://stackoverflow.com/questions/8000844/spring-handlerinterceptor-vs-servlet-filters)
