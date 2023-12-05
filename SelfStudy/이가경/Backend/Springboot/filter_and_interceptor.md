@@ -183,7 +183,7 @@ Spring 에서 filter와 inteceptor의 차이에 대해 설명해주세요.</summ
 반면에 가장 큰 차이점으로는 filter는 스프링 외부에서 처리되는 것이고, interceptor는 스프링이 처리하는 것입니다.
 
 <br>
-누군가.. 추가 부탁드려요.. 
+또한, filter는 request나 response 객체를 다른 객체로 변경 가능한데, interceptor는 불가능합니다.
 </div>
 </details>
 
