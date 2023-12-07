@@ -23,9 +23,9 @@
         - 롤백할 수 있는 여러개의 savepoint를 가지는 단일 물리 트랜잭션 사용
         - 특정한 리소스(JDBC) 트랜잭션에서만 가능하다.
     - **NEVER**
-    - **NOT_SUPPORTED**
-        - 현재 진행중인 트랜잭션이 있으면 참여
     - **SUPPORTS**
+        - 현재 진행중인 트랜잭션이 있으면 참여
+    - **NOT_SUPPORTED**
         - 현재 진행중인 트랜잭션이 있다면 멈추고, 본인 실행 후 다시 트랜잭션 재개
     ![propagation type](./images/db_propagation_type.png)<br/>
 
