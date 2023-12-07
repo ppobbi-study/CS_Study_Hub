@@ -13,6 +13,7 @@
   - [useEffect](./UseEffect.md)
   - [useMemo](./Memo.md)
 - [Next.js](./frontend_nextjs.md)
+- [면접 질문](./frontend_browser_and_api.md)
 
 
 ## Contributor  
