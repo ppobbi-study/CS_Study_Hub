@@ -45,13 +45,13 @@
 
 ## 관련된 자료구조들에 대해서 알아보자
 
-![Untitled](<./images/index_array_linked_list.png>)
+![Untitled](<./images/Untitled%20(7).png>)
 
 일차적으로 데이터를 저장하는 방법은, array or list를 떠올릴 것이다.
 
 그러나 실제 데이터베이스는 이 형식으로 안하는데, 데이터들을 귀찮게 다 가져와서 일렬로 정렬하는 것 보다 흩뿌려져있는결 화살표로 연결해버리는 방식이 더 효율적이기 때문이다.
 
-![Untitled](<./images/index_binary_search.png>)
+![Untitled](<./images/Untitled%20(7.5).png>)
 
 이런식으로 배치해놔도 binary search로 log(n)의 시간복잡도로 특정 데이터를 가져올 수 있다.
 
@@ -59,7 +59,7 @@
 
 ### 성능을 더 개선시킬 수 없을까?
 
-![Untitled](<./images/index_btree.png>)
+![Untitled](<./images/Untitled%20(8).png>)
 
 특정 데이터를 기준으로 2개의 자식만을 갖는 `Binary Search Tree의 한계`를 개선한 `**B-Tree**`이다.
 
@@ -67,7 +67,7 @@ Node마다 데이터들을 여러개 넣어버려 절반씩 자르는게 아니�
 
 ### 한번 더 개선시킨다.
 
-![Untitled](<./images/index_bplustree.png>)
+![Untitled](<./images/Untitled%20(9).png>)
 
 데이터들을 맨 아래에 배치한다. 그 부모 노드들은 가이드만 제공한다.
 
