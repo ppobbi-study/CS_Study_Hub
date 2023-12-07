@@ -5,12 +5,12 @@
 CS 스터디 시작 (2023.10.17 ~ )
    
 ## ✅ Contents
-* [프로그래밍 기본](./ProgrammingBase/README.md)  
-* [운영체제]()  
+* [자료구조와 알고리즘](./DataStructureAndAlgorithm/README.md)  
+* [운영체제](./OS/Readme.md)  
 * [네트워크]()    
 * [데이터베이스]()  
 * [백엔드]()
-* [프론트엔드]()   
+* [프론트엔드](./Frontend/README.md)   
 
 
    
