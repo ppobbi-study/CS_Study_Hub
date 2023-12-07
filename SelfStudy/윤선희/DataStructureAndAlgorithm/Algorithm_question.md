@@ -57,7 +57,8 @@ Timsort의 시간복잡도는 평균 O(n log(n)) 이며 최악의 경우도 O(n 
 
 [TimSort란?](https://d2.naver.com/helloworld/0315536)
 
-
+#### 👏결론
+[![](./images/dsaa_img05.JPG)]() <br>
 
 <br><br>
 
