@@ -1,7 +1,5 @@
-> :bulb: 라이브러리와 프레임워크 차이 : 제어 흐름의 주도권이 누구에게 있느냐
-<br>
-> `라이브러리` : 전체적인 흐름을 개발자가 구현, 라이브러리를 가져다 써서 흐름을 구현
-<br>
+> :bulb: 라이브러리와 프레임워크 차이 : 제어 흐름의 주도권이 누구에게 있느냐 <br>
+> `라이브러리` : 전체적인 흐름을 개발자가 구현, 라이브러리를 가져다 써서 흐름을 구현 <br>
 > `프레임워크` : 전체적인 흐름 제어, 개발자는 그 흐름 안에서 구현
 
 # 📗 Vue.js
@@ -10,7 +8,7 @@
   - 라이브러리처럼 사용될 수 있도록 설계
 - 프레임워크이기 때문에 `.vue` 파일 형태에 맞춰 개발
   - `.js`로도 가능하지만 효율성이 떨어짐
-- [`SPA`](/Frontend/frontend_spa_and_mpa.md/#spa란)
+- [SPA](/Frontend/frontend_spa_and_mpa.md/#spa란)
 - [SSR](/Frontend/frontend_spa_and_mpa.md/#ssrserver-side-rendering)
 
 ## :memo: .vue
