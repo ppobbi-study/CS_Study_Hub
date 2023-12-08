@@ -180,7 +180,6 @@ View와 Model을 분리하고 Props Drilling Problem을 막는 것에 집중하�
 <details>
   <summary><b>MVVM 패턴에 대해서 설명해주세요.</b></summary>
   <div markdown="1">
-  
   </div>
 </details>
 <br>
@@ -202,6 +201,7 @@ View와 Model을 분리하고 Props Drilling Problem을 막는 것에 집중하�
 <br>
 
     
+
 # :newspaper: Reference
 [프론트엔드 트렌드](https://yozm.wishket.com/magazine/detail/1663/)
 [프론트엔드 아키텍처란? - 테오블로그](https://velog.io/@teo/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%EC%84%9C-MV-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)

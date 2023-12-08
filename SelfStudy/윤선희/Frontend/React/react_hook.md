@@ -74,7 +74,7 @@ const Counter = () => {
 
 > setState가 비동기가 아닌 동기로 작동하게 되면 변경될 때마다 바로바로 렌더링을 하기 때문에 비효율적이다.
 
-```
+```javascript
 await s3.upload(params, async (err: any, data: any) => {
 			if (err) {
 				alert('시스템 에러, 관리자에게 문의하세요.');
