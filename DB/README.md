@@ -19,6 +19,9 @@
 -   [x] [Join](./db_join.md)
 -   [x] [Join in Redis](./db_join_in_redis.md)
 
+<br>
+
+- [x] [데이터베이스 면접 질문](./Question.md)
 
 
 
