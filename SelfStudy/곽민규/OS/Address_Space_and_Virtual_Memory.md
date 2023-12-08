@@ -1,4 +1,4 @@
-- [ ] # 📬 주소 공간과 가상 메모리
+# 📬 주소 공간과 가상 메모리
 
 
   ## 🌝 초기 컴퓨터의 메모리 구성
@@ -80,7 +80,7 @@
   - 프로세스가 요청하는 메모리 크기만큼 할당, 해제하는 과정(**동적 분할 기법**)을 반복한다면 → **외부 단편화** 발생
 
   [<img src ="./images/ExternalFragmentation.png" width="400"/>](./images/ExternalFragmentation.png)
-- [페이징](./Paging.md) 또는 [세그먼테이션](./Segmentation)을 통해 불연속적으로 할당하는 방법이 필요함
+- [페이징](./PagingandSegmentation.md#페이징) 또는 [세그멘테이션](./PagingandSegmentation.md#세그멘테이션)을 통해 불연속적으로 할당하는 방법이 필요함
 
   <br>
 

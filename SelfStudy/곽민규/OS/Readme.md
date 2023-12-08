@@ -21,15 +21,11 @@
 - [x] [CPU 스케줄링](./cpu_scheduling.md)
       <br> <br>
 
-- [ ] [주소 공간과 가상 메모리](./Address_Space_and_Virtual_Memory.md)
+- [x] [주소 공간과 가상 메모리](./Address_Space_and_Virtual_Memory.md)
 
 
-  ​    <br> <br>
+​           <br>        <br>
 
-- [ ] [세그먼테이션](./Segmentation.md)
-
-  ​    <br> <br>
-
-- [ ] [페이징](./Paging.md)
+- [x] [페이징과 세그멘테이션](./PagingandSegmentation.md)
 
   ​    <br> <br>

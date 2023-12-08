@@ -48,10 +48,10 @@ jQuery로 작업을 하다보니 데이터를 수정하고 이벤트를 연결�
 <details>
   <summary><b> </b></summary>
   <div markdown="1">
-  
   </div>
 </details>
 <br>
     
+
 # :newspaper: Reference
 [프론트엔드 트렌드](https://yozm.wishket.com/magazine/detail/1663/)
